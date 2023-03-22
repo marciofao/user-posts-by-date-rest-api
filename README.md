@@ -12,29 +12,18 @@ using date format: yyyymmdd
 
 Results are returned as Json like this following example:
 
-`
+```
 [
-
  {
- 
   "id": "1",
-  
   "email": "user@example.com",
-  
   "posts": 2
- 
  },
- 
  {
- 
  "id": "2",
- 
  "email": "user2@example.com",
- 
  "posts": 3
- 
  }
-
 ]
 `
 
