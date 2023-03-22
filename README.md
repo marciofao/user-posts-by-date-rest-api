@@ -25,5 +25,4 @@ Results are returned as Json like this following example:
  "posts": 3
  }
 ]
-`
-
+```
