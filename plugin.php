@@ -7,6 +7,7 @@
  * Requires PHP:      7.2
  * Author:            Márcio Fão
  * Author URI:        https://marciofao.github.io/
+ * Plugin URI:        https://github.com/marciofao/user-posts-by-date-rest-api
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wpre
@@ -29,11 +30,10 @@ class WpreUsers {
 		$namespace = 'users/v' . $version;
 		$base = 'user-listing';
 		register_rest_route($namespace, '/' . $base, array(
-			array(
-				'methods' => WP_REST_Server::READABLE,
-				'callback' => array($this, 'get_items'),
-				'args' => array('')
-			)
+			'methods' => WP_REST_Server::READABLE,
+			'callback' => array($this, 'get_items'),
+			'permission_callback' => '__return_true',
+			'args' => array()
 		));
 	}
 
