@@ -3,7 +3,7 @@ A simple plugin for visualizing userd posts amouunt by date range
 
 The plugin works by enabling the following endpoint in your wordpress instance:
 
-/wp-json/users/v1/user-listing?range=20230101-20233101
+/wp-json/users/v1/user-listing?range=20230101-20231231
 
 where
 
