@@ -11,7 +11,7 @@ usage:
 
 uses date format: yyyymmdd
 
-Results are returned as Json like this following example:
+Results are returned as a Json response:
 
 ```
 [
