@@ -1,5 +1,5 @@
 # User Posts by date - rest API endpoint
-A simple plugin for visualizing userd posts amouunt by date range
+A simple plugin for visualizing userd posts amount by date range
 
 The plugin works by enabling the following endpoint in your wordpress instance:
 
