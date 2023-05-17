@@ -5,10 +5,10 @@ The plugin works by enabling the following endpoint in your wordpress instance:
 
 /wp-json/users/v1/user-listing?range=20230101-20231231
 
-where
+usage:
 
-range=[start date]-[end date]
-using date format: yyyymmdd
+```range=[start date]-[end date]```
+uses date format: yyyymmdd
 
 Results are returned as Json like this following example:
 
