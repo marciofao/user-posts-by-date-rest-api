@@ -8,6 +8,7 @@ The plugin works by enabling the following endpoint in your wordpress instance:
 usage:
 
 ```range=[start date]-[end date]```
+
 uses date format: yyyymmdd
 
 Results are returned as Json like this following example:
